@@ -1,0 +1,20 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 22/08/2018
+// Seção de Declarações 
+var
+ An,Aa,Ida,Id2050:inteiro
+ 
+inicio
+// Seção de Comandos
+  escreval("calculo de idade")
+  escreval("digite o ano do nascimento")
+  leia(An)
+  escreval("digite o ano atual")
+  leia(Aa)
+  Ida<- (Aa - An)
+  Id2050<- (2050 - An)
+  escreval("A idade atual é igual :",Ida,"A idade em 2050 será:",Id2050)
+  
+fimalgoritmo
