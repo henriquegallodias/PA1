@@ -1,0 +1,19 @@
+algoritmo "exercício 5"
+// Função :
+// Autor :henrique
+// Data : 22/08/2018
+// Seção de Declarações 
+var
+  X,N,RES:real
+  
+inicio
+// Seção de Comandos 
+ Escreval("caculo da expressão (x*n)")
+ escreval("digite um valor para x")
+ Leia(X)
+ Escreval("digite um valor para N")
+ leia(N)
+ RES<- (X*N)*(X*N)
+ Escreval("O resultado da expressão é:",RES)
+
+fimalgoritmo
